@@ -479,6 +479,70 @@
 				</div>
 			</div>
 		</section>
+		<section class="gallery">
+			<div class="container">
+				<div class="gallery__topPart">
+					<div class="row">
+						<div class="col-xl-12">
+							<div class="gallery__topPart--title">
+								<h4>Our Gallery</h4>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="gallery__topPart--desc">
+								<p>We Provide Best Services For Our Valuable Clients</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gallery__botPart">
+					<div class="row">
+						<div class="col-xl-4">
+							<div class="gallery__botPart--top hImgTopSides">
+							
+							</div>
+						</div>
+						<div class="col-xl-4">
+							<div class="row">
+								<div class="col-xl-12">
+									<div class="gallery__botPart--top hImgTopCenter">
+								
+									</div>
+								</div>
+								<div class="col-xl-12">
+									<div class="gallery__botPart--top hImgTopCenter">
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4">
+							<div class="gallery__botPart--top hImgTopSides">
+							
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="gallery__botPart--bot">
+								<div class="row">
+									<div class="col-xl-5">
+										<div class="gallery__botPart--bot_img">
+										</div>
+									</div>
+									<div class="col-xl-4">
+										<div class="gallery__botPart--bot_img">
+										</div>
+									</div>
+									<div class="col-xl-3">
+										<div class="gallery__botPart--bot_img">
+										</div>								
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 </body>
 </html>
