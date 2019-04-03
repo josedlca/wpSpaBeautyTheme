@@ -821,6 +821,109 @@
 				</div>
 			</div>
 		</section>
+		<section class="blog">
+			<div class="container">
+				<div class="blog__topPart">
+					<div class="row">
+						<div class="col-xl-12">
+							<div class="blog__topPart--title">
+								<h4>From Blog</h4>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="blog__topPart--desc">
+								<p>Some of Our Blog Post is Here</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="blog__botPart">
+					<div class="row">
+						<div class="col-xl-4">
+							<div class="blog__botPart--card">
+								<div class="row">
+									<div class="col-xl-12">
+										<div class="blog__botPart--card_day">
+											<p>07</p>
+											<p>May</p>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="blog__botPart--card_title">
+											<p>Top 10 Tips To Improve Your Sales</p>									
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="blog__botPart--card_desc">
+											<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, magnam repellendus quo, blanditiis cumque perferendis ipsa quaerat fugit eveniet.</p>									
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="blog__botPart--card_btn">
+											<a href="#">READ MORE</a>									
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4">
+							<div class="blog__botPart--card">
+								<div class="row">
+									<div class="col-xl-12">
+										<div class="blog__botPart--card_day">
+											<p>07</p>
+											<p>May</p>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="blog__botPart--card_title">
+											<p>Top 10 Tips To Improve Your Sales</p>									
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="blog__botPart--card_desc">
+											<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, magnam repellendus quo, blanditiis cumque perferendis ipsa quaerat fugit eveniet.</p>									
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="blog__botPart--card_btn">
+											<a href="#">READ MORE</a>									
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4">
+							<div class="blog__botPart--card">
+								<div class="row">
+									<div class="col-xl-12">
+										<div class="blog__botPart--card_day">
+											<p>07</p>
+											<p>May</p>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="blog__botPart--card_title">
+											<p>Top 10 Tips To Improve Your Sales</p>									
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="blog__botPart--card_desc">
+											<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, magnam repellendus quo, blanditiis cumque perferendis ipsa quaerat fugit eveniet.</p>									
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="blog__botPart--card_btn">
+											<a href="#">READ MORE</a>									
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 </body>
 </html>
