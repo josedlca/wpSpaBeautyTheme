@@ -543,6 +543,58 @@
 				</div>
 			</div>
 		</section>
+		<section class="products">
+			<div class="container">
+				<div class="products__topPart">
+					<div class="row">
+						<div class="col-xl-12">
+							<div class="products__topPart--title">
+								<h4>Our Products</h4>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="products__topPart--desc">
+								<p>Fron Products page just showing some Special Products</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="products__botPart">
+					<div class="row">
+						<div class="col-xl-4">
+							<div class="products__botPart--card">
+								<div class="products__botPart--card_img">
+
+								</div>
+								<div class="products__botPart--card_desc">
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quisquam, deleniti mollitia error iure voluptatum a pariatur eum sunt nesciunt laudantium vel exercitationem.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4">
+							<div class="products__botPart--card">
+								<div class="products__botPart--card_img">
+
+								</div>
+								<div class="products__botPart--card_desc">
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quisquam, deleniti mollitia error iure voluptatum a pariatur eum sunt nesciunt laudantium vel exercitationem.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4">
+							<div class="products__botPart--card">
+								<div class="products__botPart--card_img">
+
+								</div>
+								<div class="products__botPart--card_desc">
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quisquam, deleniti mollitia error iure voluptatum a pariatur eum sunt nesciunt laudantium vel exercitationem.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 </body>
 </html>
