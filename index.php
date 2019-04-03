@@ -198,6 +198,97 @@
 				</div>
 			</div>
 		</section>
+		<section class="reserves">
+			<div class="container">
+				<div class="reserves__topPart">
+					<div class="row">
+						<div class="col-xl-12">
+							<div class="reserves__topPart--title">
+								<h3>Make an Appointment</h3>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="reserves__topPart--subTitle">
+								<p>Book a Session Now Otherwise Another Person will Grab this Session </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="reserves__botPart">
+					<div class="row">
+						<div class="col-xl-4">
+							<div class="reserves__botPart--card">
+								<div class="row">
+									<div class="col-xl-12">
+										<div class="reserves__botPart--card_title">
+											<h4>STAKE OPEN HOURS</h4>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="reserves__botPart--card_hours">
+											<p>Sunday to Tuesday 09:00 - 24:00</p>
+											<p>Friday and Sunday 08:00 - 02:00</p>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="reserves__botPart--card_numbertitle">
+											<p>CALL US TO BOOK INMEDIATLY</p>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="reserves__botPart--card_number">
+											<p>+84 846 250 592</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-8">
+							<div class="reserves__botPart--form">
+								<div class="row">
+									<div class="col-xl-5">
+										<div class="reserves__botPart--form_left">
+											<div class="reserves__botPart--form_left-name">
+												<input type="text" placeholder="Name">
+											</div>
+											<div class="reserves__botPart--form_left-phone">
+												<input type="number" placeholder="Phone">
+											</div>
+											<div class="reserves__botPart--form_left-date">
+												<input type="date" placeholder="Date">
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-5">
+										<div class="reserves__botPart--form_right">
+											<div class="reserves__botPart--form_right-email">
+												<input type="email" placeholder="Email">
+											</div>
+											<div class="reserves__botPart--form_right-choose">
+												<input type="number" placeholder="Choose Service">
+											</div>
+											<div class="reserves__botPart--form_right-time">
+												<input type="date" placeholder="Time">
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-10">
+										<div class="reserves__botPart--form_message">
+											<textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="reserves__botPart--form_btn">
+											<a href="#">BOOK A SESSION </a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 </body>
 </html>
