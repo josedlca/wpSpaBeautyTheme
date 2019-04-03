@@ -595,6 +595,16 @@
 				</div>
 			</div>
 		</section>
+		<section class="discount">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<p>Enjoy 20% Discount for Regular Customers</p>
+						<a href="#">PURCHASE NOW</a>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 </body>
 </html>
