@@ -109,7 +109,7 @@
 					<div class="row">
 						<div class="col-xl-6">
 							<div class="caracteristics__topPart--text">
-								<div class="row">
+								<div class="row t-c">
 									<div class="col-xl-12">
 										<div class="caracteristics__topPart--text_little">
 											<p>WELCOME TO STAKER</p>
@@ -136,6 +136,10 @@
 						<div class="col-xl-6">
 							<div class="caracteristics__topPart--imgContainer">
 								<div class="imgTest"></div>
+								<div class="caracteristics__topPart--imgContainer_aftBef">
+									<div class="caracteristics__topPart--imgContainer_aftBef-bef"><i class="fas fa-long-arrow-alt-left"></i></div>
+									<div class="caracteristics__topPart--imgContainer_aftBef-aft"><i class="fas fa-long-arrow-alt-right"></i></div>
+								</div>
 							</div>
 						</div>
 					</div>

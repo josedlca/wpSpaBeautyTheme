@@ -8,7 +8,7 @@
 
 // google fonts frontend
 function wpSpaBeauty_load_scripts(){
-	wp_enqueue_style( 'lato', 'https://fonts.googleapis.com/css?family=Lato:300,400,700' );
+	wp_enqueue_style( 'lato', 'https://fonts.googleapis.com/css?family=Lato:300,400,500,700' );
 }
 
 add_action('wp_enqueue_script','wpSpaBeauty_load_scripts');
