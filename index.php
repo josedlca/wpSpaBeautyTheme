@@ -70,11 +70,35 @@
 				</div>
 			</div>
 		</section>
-		<section class="banner">
+		<section class="banner align-items-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-8">
-						Some text here later
+						<div class="banner__info">
+							<div class="row">
+								<div class="col-xl-12">
+									<div class="banner__info--welcome">
+										<p>WELCOME TO</p>
+									</div>
+								</div>
+								<div class="col-xl-12">
+									<div class="banner__info--title">
+										<h1>STAKER SPA & BEAUTY</h1>
+									</div>
+								</div>
+								<div class="col-xl-8">
+									<div class="banner__info--desc">
+										<p>We Ensure you we will Give Best Services . Check out</p>
+										<p> Our Services And Book Now</p>
+									</div>
+								</div>
+								<div class="col-xl-12">
+									<div class="banner__info--btn">
+										<a href="#">CONTACT NOW</a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
