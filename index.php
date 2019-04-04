@@ -10,7 +10,9 @@
     </title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/bootstrap-grid.min.css">
-            <!-- Custom styles for this template -->
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
@@ -18,18 +20,24 @@
 	<main>
 		<section class="topBlackBar">
 			<div class="container">
-				<div class="row justify-content-between">
+				<div class="row justify-content-between align-items-center">
 					<div class="col-xl-3">
 						<div class="topBlackBar__language">
-							<p>Select Your Language</p>
+							<select id="">
+								<option value="">Select Your Language</option>
+								<option value="">Spanish</option>
+								<option value="">English</option>
+							</select>
 						</div>
 					</div>
-					<div class="col-xl-5">
+					<div class="col-xl-5 t-r">
 						<div class="topBlackBar__shop">
+							<span><i class="fas fa-shopping-basket"></i></span>
 							<p>Cart(0)</p>
 						</div>
 						<div class="topBlackBar__search">
-
+							<input type="text" placeholder='Search Here....'>
+							<button><i class="fas fa-search"></i></button>
 						</div>
 					</div>
 				</div>
@@ -43,7 +51,7 @@
 							<img src="<?php bloginfo('template_url'); ?>/img/brand.png" alt="brand">
 						</div>
 					</div>
-					<div class="col-xl-7 t-r">
+					<div class="col-xl-8 t-r">
 						<div class="menu__nav">
 							<?php
 								wp_nav_menu( array(
