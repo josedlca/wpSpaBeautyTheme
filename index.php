@@ -148,33 +148,17 @@
 					<div class="row">
 						<div class="col-xl-3">
 							<div class="caracteristics__botPart--card">
-								<div class="row">
+								<div class="row t-c">
 									<div class="col-xl-12">
-										<div class="caracteristics__botPart--card_icon">
-											some icon here
+										<div class="caracteristics__botPart--card_icon-border">
+											<div class='caracteristics__botPart--card_icon-space'>
+												<div class="caracteristics__botPart--card_icon-inside" >
+													<img src="<?php bloginfo('template_url'); ?>/img/iconone.png" alt="">
+												</div>
+											</div>
 										</div>
 									</div>
-									<div class="col-xl-12">
-										<div class="caracteristics__botPart--card_title">
-											<h5>10 Years of Experience</h5>
-										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="caracteristics__botPart--card_text">
-											<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et saepe nemo voluptatibus temporibus quam quas exercitationem libero odit? Id expedita minus.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3">
-							<div class="caracteristics__botPart--card">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="caracteristics__botPart--card_icon">
-											some icon here
-										</div>
-									</div>
+									<hr class="cardLine">
 									<div class="col-xl-12">
 										<div class="caracteristics__botPart--card_title">
 											<h5>10 Years of Experience</h5>
@@ -190,12 +174,17 @@
 						</div>
 						<div class="col-xl-3">
 							<div class="caracteristics__botPart--card">
-								<div class="row">
+								<div class="row t-c">
 									<div class="col-xl-12">
-										<div class="caracteristics__botPart--card_icon">
-											some icon here
+										<div class="caracteristics__botPart--card_icon-border">
+											<div class='caracteristics__botPart--card_icon-space'>
+												<div class="caracteristics__botPart--card_icon-inside" >
+													<img src="<?php bloginfo('template_url'); ?>/img/icontwo.png" alt="">
+												</div>
+											</div>
 										</div>
 									</div>
+									<hr class="cardLine">
 									<div class="col-xl-12">
 										<div class="caracteristics__botPart--card_title">
 											<h5>10 Years of Experience</h5>
@@ -211,12 +200,43 @@
 						</div>
 						<div class="col-xl-3">
 							<div class="caracteristics__botPart--card">
-								<div class="row">
+								<div class="row t-c">
 									<div class="col-xl-12">
-										<div class="caracteristics__botPart--card_icon">
-											some icon here
+										<div class="caracteristics__botPart--card_icon-border">
+											<div class='caracteristics__botPart--card_icon-space'>
+												<div class="caracteristics__botPart--card_icon-inside" >
+													<img src="<?php bloginfo('template_url'); ?>/img/iconthree.png" alt="">
+												</div>
+											</div>
 										</div>
 									</div>
+									<hr class="cardLine">
+									<div class="col-xl-12">
+										<div class="caracteristics__botPart--card_title">
+											<h5>10 Years of Experience</h5>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="caracteristics__botPart--card_text">
+											<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et saepe nemo voluptatibus temporibus quam quas exercitationem libero odit? Id expedita minus.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3">
+							<div class="caracteristics__botPart--card">
+								<div class="row t-c">
+									<div class="col-xl-12">
+										<div class="caracteristics__botPart--card_icon-border">
+											<div class='caracteristics__botPart--card_icon-space'>
+												<div class="caracteristics__botPart--card_icon-inside" >
+													<img src="<?php bloginfo('template_url'); ?>/img/iconfour.png" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<hr class="cardLine">
 									<div class="col-xl-12">
 										<div class="caracteristics__botPart--card_title">
 											<h5>10 Years of Experience</h5>
