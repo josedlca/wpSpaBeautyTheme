@@ -303,7 +303,7 @@
 						<div class="col-xl-8">
 							<div class="reserves__botPart--form">
 								<div class="row">
-									<div class="col-xl-5">
+									<div class="col-xl-6">
 										<div class="reserves__botPart--form_left">
 											<div class="reserves__botPart--form_left-name">
 												<input type="text" placeholder="Name">
@@ -316,27 +316,29 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-5">
+									<div class="col-xl-6">
 										<div class="reserves__botPart--form_right">
 											<div class="reserves__botPart--form_right-email">
 												<input type="email" placeholder="Email">
 											</div>
 											<div class="reserves__botPart--form_right-choose">
-												<input type="number" placeholder="Choose Service">
+												<select name="" id="">
+													<option value="">Choose Service</option>
+												</select>
 											</div>
 											<div class="reserves__botPart--form_right-time">
-												<input type="date" placeholder="Time">
+												<input type="time" placeholder="Time">
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-10">
+									<div class="col-xl-12">
 										<div class="reserves__botPart--form_message">
-											<textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+											<textarea placeholder="Message" name="" id=""></textarea>
 										</div>
 									</div>
 									<div class="col-xl-12">
 										<div class="reserves__botPart--form_btn">
-											<a href="#">BOOK A SESSION </a>
+											<input type="button" value="BOOK A SESSION">
 										</div>
 									</div>
 								</div>
