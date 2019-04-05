@@ -351,7 +351,7 @@
 		<section class="services">
 			<div class="container">
 				<div class="services__topPart">
-					<div class="row">
+					<div class="row t-c">
 						<div class="col-xl-12">
 							<div class="services__topPart--title">
 								<h4>Our Services</h4>
@@ -365,170 +365,176 @@
 					</div>
 				</div>
 				<div class="services__botPart">
-					<div class="row">
-						<div class="col-xl-3">
-							<div class="services__botPart--card">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="services__botPart--card_icon">
-											some icon
+					<div class="services__botPart--top">
+						<div class="row">
+							<div class="col-xl-3">
+								<div class="services__botPart--card">
+									<div class="row">
+										<div class="col-xl-12">
+											<div class="services__botPart--card_icon">
+												<img src="<?php bloginfo('template_url'); ?>/img/serviceone.png" alt="">
+											</div>
+										</div>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_title">
+												<h4>BODY MESSAGE</h4>
+											</div>
+										</div>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_desc">
+												<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
+											</div>
 										</div>
 									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_title">
-											<h4>BODY MESSAGE</h4>
+								</div>
+							</div>
+							<div class="col-xl-3">
+								<div class="services__botPart--card">
+									<div class="row">
+										<div class="col-xl-12">
+											<div class="services__botPart--card_icon">
+												<img src="<?php bloginfo('template_url'); ?>/img/servicetwo.png" alt="">
+											</div>
+										</div>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_title">
+												<h4>BODY MESSAGE</h4>
+											</div>
+										</div>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_desc">
+												<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
+											</div>
 										</div>
 									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_desc">
-											<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
+								</div>
+							</div>
+							<div class="col-xl-3">
+								<div class="services__botPart--card">
+									<div class="row">
+										<div class="col-xl-12">
+											<div class="services__botPart--card_icon">
+												<img src="<?php bloginfo('template_url'); ?>/img/servicethree.png" alt="">
+											</div>
+										</div>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_title">
+												<h4>BODY MESSAGE</h4>
+											</div>
+										</div>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_desc">
+												<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3">
+								<div class="services__botPart--card">
+									<div class="row">
+										<div class="col-xl-12">
+											<div class="services__botPart--card_icon">
+												<img src="<?php bloginfo('template_url'); ?>/img/servicefour.png" alt="">
+											</div>
+										</div>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_title">
+												<h4>BODY MESSAGE</h4>
+											</div>
+										</div>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_desc">
+												<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-xl-3">
-							<div class="services__botPart--card">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="services__botPart--card_icon">
-											some icon
+					</div>
+					<div class="services__botPart--bot">
+						<div class="row">
+							<div class="col-xl-3">
+								<div class="services__botPart--card">
+									<div class="row">
+										<div class="col-xl-12">
+											<div class="services__botPart--card_icon">
+												<img src="<?php bloginfo('template_url'); ?>/img/servicefive.png" alt="">
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_title">
-											<h4>BODY MESSAGE</h4>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_title">
+												<h4>BODY MESSAGE</h4>
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_desc">
-											<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3">
-							<div class="services__botPart--card">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="services__botPart--card_icon">
-											some icon
-										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_title">
-											<h4>BODY MESSAGE</h4>
-										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_desc">
-											<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_desc">
+												<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-xl-3">
-							<div class="services__botPart--card">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="services__botPart--card_icon">
-											some icon
+							<div class="col-xl-3">
+								<div class="services__botPart--card">
+									<div class="row">
+										<div class="col-xl-12">
+											<div class="services__botPart--card_icon">
+												<img src="<?php bloginfo('template_url'); ?>/img/servicesix.png" alt="">
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_title">
-											<h4>BODY MESSAGE</h4>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_title">
+												<h4>BODY MESSAGE</h4>
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_desc">
-											<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3">
-							<div class="services__botPart--card">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="services__botPart--card_icon">
-											some icon
-										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_title">
-											<h4>BODY MESSAGE</h4>
-										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_desc">
-											<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_desc">
+												<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-xl-3">
-							<div class="services__botPart--card">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="services__botPart--card_icon">
-											some icon
+							<div class="col-xl-3">
+								<div class="services__botPart--card">
+									<div class="row">
+										<div class="col-xl-12">
+											<div class="services__botPart--card_icon">
+												<img src="<?php bloginfo('template_url'); ?>/img/serviceseven.png" alt="">
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_title">
-											<h4>BODY MESSAGE</h4>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_title">
+												<h4>BODY MESSAGE</h4>
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_desc">
-											<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3">
-							<div class="services__botPart--card">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="services__botPart--card_icon">
-											some icon
-										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_title">
-											<h4>BODY MESSAGE</h4>
-										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_desc">
-											<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_desc">
+												<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-xl-3">
-							<div class="services__botPart--card">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="services__botPart--card_icon">
-											some icon
+							<div class="col-xl-3">
+								<div class="services__botPart--card">
+									<div class="row">
+										<div class="col-xl-12">
+											<div class="services__botPart--card_icon">
+												<img src="<?php bloginfo('template_url'); ?>/img/serviceeight.png" alt="">
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_title">
-											<h4>BODY MESSAGE</h4>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_title">
+												<h4>BODY MESSAGE</h4>
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="services__botPart--card_desc">
-											<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
+										<div class="col-xl-12">
+											<div class="services__botPart--card_desc">
+												<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laboriosam aliquam mollitia vel corrupti nostrum iste explicabo, exercitationem delectus sequi voluptate aliquid officia distinctio</p>
+											</div>
 										</div>
 									</div>
 								</div>
