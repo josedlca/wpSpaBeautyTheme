@@ -388,6 +388,42 @@ li{
 					end caracteristics
 ====================================================*/
 
+.reserves{
+	background: #000;
+	padding: 130px 0;
+}
+
+.reserves__topPart{
+
+}
+
+.reserves__topPart--title{
+	margin-bottom: 25px;
+}
+
+.reserves__topPart--title h3{
+	font-size: 40px;
+	color: rgb(253, 45, 120);
+	font-family: "Merriweather";
+}
+
+.reserves__topPart--subTitle{
+	margin-bottom: 80px;
+}
+
+.reserves__topPart--subTitle p{
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+}  
+
+/*================================================== 
+					reserves
+====================================================*/
+
+/*================================================== 
+					end reserves
+====================================================*/
+
 
 .gallery__botPart--top{
 	width: 100%;

@@ -257,7 +257,7 @@
 		<section class="reserves">
 			<div class="container">
 				<div class="reserves__topPart">
-					<div class="row">
+					<div class="row t-c">
 						<div class="col-xl-12">
 							<div class="reserves__topPart--title">
 								<h3>Make an Appointment</h3>
