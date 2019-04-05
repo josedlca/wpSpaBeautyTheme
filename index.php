@@ -547,7 +547,7 @@
 		<section class="gallery">
 			<div class="container">
 				<div class="gallery__topPart">
-					<div class="row">
+					<div class="row t-c">
 						<div class="col-xl-12">
 							<div class="gallery__topPart--title">
 								<h4>Our Gallery</h4>
