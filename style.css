@@ -239,7 +239,8 @@ input{
 	margin-bottom: 25px;
 }
 
-.caracteristics__topPart--text_title p{
+.caracteristics__topPart--text_title p,
+.products__topPart--title h4{
 	font-size: 40px;
 	color: rgb(239, 69, 129);
 	font-family: "Merriweather";
@@ -251,7 +252,8 @@ input{
 
 .caracteristics__topPart--text_description p,
 .services__topPart--desc p,
-.gallery__topPart--desc p{
+.gallery__topPart--desc p,
+.products__topPart--desc p{
 	font-size: 18px;
 	color: rgb(102, 102, 102);
 }  
@@ -648,4 +650,113 @@ input{
 
 /*================================================== 
 						Ends Gallery
+====================================================*/
+
+/*================================================== 
+						products
+====================================================*/
+
+.products{
+	padding: 130px 0 230px 0;
+}
+
+.products__topPart--title{
+	margin-bottom: 30px;
+}
+
+.products__topPart--desc{
+	margin-bottom: 60px;
+}
+
+.products__botPart--card{
+	width: 100%;
+	height: 250px;
+	position: relative;
+	text-align: center;
+	background: #f6f6f6;
+}
+
+/* .products__botPart--card img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+} */
+
+.products__botPart--card_desc{
+	position: absolute;
+	width: 80%;
+	text-align: center;
+	background: #ffffff;
+	padding: 35px 0;
+	border-top: 2px solid #e7e7e7;
+	top: 80%;
+    left: 50%;
+	transform: translateX(-50%);
+	transition: ease all .3s;
+	z-index: 4;
+}
+
+.products__botPart--card:hover .products__botPart--card_desc{
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+	border-top: 2px solid #7f318c;
+}
+
+.products__botPart--card_desc h5{
+	font-size: 20px;
+	color: rgb(51, 51, 51);
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+
+.products__botPart--card_desc p{
+	font-size: 15px;
+	color: rgb(102, 102, 102);
+}
+
+.products__botPart--card_link{
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 15px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	background: #7f318c;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+	transition:  ease all .3s;
+	z-index: 2;
+}
+
+.products__botPart--card_cost{
+	display: inline-flex;
+	width: 95px;
+	height: 95px;
+	background: #7f318c;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	transition:  ease all .3s;
+	top: 80%;
+	z-index: 2;
+}
+
+.products__botPart--card_cost p{
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+}
+
+.products__botPart--card:hover .products__botPart--card_link{
+	top: 66%;
+}
+
+.products__botPart--card:hover .products__botPart--card_cost{
+	top: 20%;
+}
+
+/*================================================== 
+						Ends products
 ====================================================*/

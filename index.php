@@ -611,7 +611,7 @@
 		<section class="products">
 			<div class="container">
 				<div class="products__topPart">
-					<div class="row">
+					<div class="row t-c">
 						<div class="col-xl-12">
 							<div class="products__topPart--title">
 								<h4>Our Products</h4>
@@ -628,31 +628,43 @@
 					<div class="row">
 						<div class="col-xl-4">
 							<div class="products__botPart--card">
-								<div class="products__botPart--card_img">
-
-								</div>
+								<!-- img -->
 								<div class="products__botPart--card_desc">
-									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quisquam, deleniti mollitia error iure voluptatum a pariatur eum sunt nesciunt laudantium vel exercitationem.</p>
+									<h5>Chiness Beauty Products</h5>
+									<p>Lorem,elit.error iure voluptatum a pariatur eum sunt nesciunt laudantium vel exercitationem.</p>
+									
+								</div>
+								<a class="products__botPart--card_link" href="#">BUY NOW</a>
+								<div class="products__botPart--card_cost">
+									<p>$50</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-xl-4">
 							<div class="products__botPart--card">
-								<div class="products__botPart--card_img">
-
-								</div>
+								<!-- img -->
 								<div class="products__botPart--card_desc">
-									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quisquam, deleniti mollitia error iure voluptatum a pariatur eum sunt nesciunt laudantium vel exercitationem.</p>
+									<h5>Chiness Beauty Products</h5>
+									<p>Lorem,elit.error iure voluptatum a pariatur eum sunt nesciunt laudantium vel exercitationem.</p>
+									
+								</div>
+								<a class="products__botPart--card_link" href="#">BUY NOW</a>
+								<div class="products__botPart--card_cost">
+									<p>$50</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-xl-4">
 							<div class="products__botPart--card">
-								<div class="products__botPart--card_img">
-
-								</div>
+								<!-- img -->
 								<div class="products__botPart--card_desc">
-									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quisquam, deleniti mollitia error iure voluptatum a pariatur eum sunt nesciunt laudantium vel exercitationem.</p>
+									<h5>Chiness Beauty Products</h5>
+									<p>Lorem,elit.error iure voluptatum a pariatur eum sunt nesciunt laudantium vel exercitationem.</p>
+									
+								</div>
+								<a class="products__botPart--card_link" href="#">BUY NOW</a>
+								<div class="products__botPart--card_cost">
+									<p>$50</p>
 								</div>
 							</div>
 						</div>
