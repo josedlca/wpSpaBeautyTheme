@@ -575,6 +575,11 @@ input{
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 30px;
+}
+
+.services__botPart--card_title{
+	margin-bottom: 30px;
 }
 
 .services__botPart--card_title h4{
