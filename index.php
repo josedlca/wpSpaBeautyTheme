@@ -274,12 +274,13 @@
 					<div class="row">
 						<div class="col-xl-4">
 							<div class="reserves__botPart--card">
-								<div class="row">
+								<div class="row t-c">
 									<div class="col-xl-12">
 										<div class="reserves__botPart--card_title">
 											<h4>STAKE OPEN HOURS</h4>
 										</div>
 									</div>
+									<hr class="reservesLine">
 									<div class="col-xl-12">
 										<div class="reserves__botPart--card_hours">
 											<p>Sunday to Tuesday 09:00 - 24:00</p>
