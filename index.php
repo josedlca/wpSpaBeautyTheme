@@ -674,10 +674,16 @@
 		</section>
 		<section class="discount">
 			<div class="container">
-				<div class="row">
-					<div class="col-xl-12">
-						<p>Enjoy 20% Discount for Regular Customers</p>
-						<a href="#">PURCHASE NOW</a>
+				<div class="row align-items-center">
+					<div class="col-xl-8">
+						<div class="discount-desc">
+							<p>Enjoy 20% Discount for Regular Customers</p>
+						</div>
+					</div>
+					<div class="col-xl-4">
+						<div class="discount-button">
+							<a href="#">PURCHASE NOW</a>
+						</div>
 					</div>
 				</div>
 			</div>
