@@ -691,7 +691,7 @@
 		<section class="pricing">
 			<div class="container">
 				<div class="pricing__topPart">
-					<div class="row">
+					<div class="row t-c">
 						<div class="col-xl-12">
 							<div class="pricing__topPart--title">
 								<h4>Our Pricing</h4>
@@ -707,152 +707,164 @@
 				<div class="pricing__botPart">
 					<div class="row">
 						<div class="col-xl-3">
-							<div class="pricing__botPart--card">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_icon">
-											some icon
+							<div class = "test">
+								<div class="pricing__botPart--card">
+									<div class="row t-c">
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_icon">
+												<img src="<?php bloginfo('template_url'); ?>/img/priceone.png" >
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_price">
-											<p>$0.00</p>
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_price">
+												<p>$0.00</p>
+											</div>																														
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_duration">
-											<p>per month</p>
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_duration">
+												<p>per month</p>
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_type">
-											<ul>
-												<li>Body Message (40Mins)</li>
-												<li>Spa Therapy (20 Mins)</li>
-												<li>Hai-Care & Styles</li>
-												<li>Oil Message (30 Mins)</li>
-												<li>Body Waxing (25 Mins)</li>
-												<li>Skin Care (40 Mins)</li>
-											</ul>
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_type">
+												<p>BASIC</p>
+												<ul>
+													<li>Body Message (40Mins)</li>
+													<li>Spa Therapy (20 Mins)</li>
+													<li>Hai-Care & Styles</li>
+													<li class="includePrice">Oil Message (30 Mins)</li>
+													<li class="includePrice">Body Waxing (25 Mins)</li>
+													<li class="includePrice">Skin Care (40 Mins)</li>
+												</ul>
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_btn">
-											<a href="#">SELECT PLAN</a>							
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3">
-							<div class="pricing__botPart--card">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_icon">
-											some icon
-										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_price">
-											<p>$0.00</p>
-										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_duration">
-											<p>per month</p>
-										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_type">
-											<ul>
-												<li>Body Message (40Mins)</li>
-												<li>Spa Therapy (20 Mins)</li>
-												<li>Hai-Care & Styles</li>
-												<li>Oil Message (30 Mins)</li>
-												<li>Body Waxing (25 Mins)</li>
-												<li>Skin Care (40 Mins)</li>
-											</ul>
-										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_btn">
-											<a href="#">SELECT PLAN</a>							
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_btn">
+												<a href="#">SELECT PLAN</a>							
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-xl-3">
-							<div class="pricing__botPart--card">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_icon">
-											some icon
+							<div class = "test">
+								<div class="pricing__botPart--card">
+									<div class="row t-c">
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_icon">
+												<img src="<?php bloginfo('template_url'); ?>/img/pricetwo.png" >
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_price">
-											<p>$0.00</p>
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_price">
+												<p>$0.00</p>
+											</div>																														
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_duration">
-											<p>per month</p>
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_duration">
+												<p>per month</p>
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_type">
-											<ul>
-												<li>Body Message (40Mins)</li>
-												<li>Spa Therapy (20 Mins)</li>
-												<li>Hai-Care & Styles</li>
-												<li>Oil Message (30 Mins)</li>
-												<li>Body Waxing (25 Mins)</li>
-												<li>Skin Care (40 Mins)</li>
-											</ul>
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_type">
+												<p>BASIC</p>
+												<ul>
+													<li>Body Message (40Mins)</li>
+													<li>Spa Therapy (20 Mins)</li>
+													<li>Hai-Care & Styles</li>
+													<li class="includePrice">Oil Message (30 Mins)</li>
+													<li class="includePrice">Body Waxing (25 Mins)</li>
+													<li class="includePrice">Skin Care (40 Mins)</li>
+												</ul>
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_btn">
-											<a href="#">SELECT PLAN</a>							
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_btn">
+												<a href="#">SELECT PLAN</a>							
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-xl-3">
-							<div class="pricing__botPart--card">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_icon">
-											some icon
+							<div class = "test">
+								<div class="pricing__botPart--card">
+									<div class="row t-c">
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_icon">
+												<img src="<?php bloginfo('template_url'); ?>/img/pricethree.png" >
+											</div>
+										</div>
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_price">
+												<p>$0.00</p>
+											</div>																														
+										</div>
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_duration">
+												<p>per month</p>
+											</div>
+										</div>
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_type">
+												<p>BASIC</p>
+												<ul>
+													<li>Body Message (40Mins)</li>
+													<li>Spa Therapy (20 Mins)</li>
+													<li>Hai-Care & Styles</li>
+													<li class="includePrice">Oil Message (30 Mins)</li>
+													<li class="includePrice">Body Waxing (25 Mins)</li>
+													<li class="includePrice">Skin Care (40 Mins)</li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_btn">
+												<a href="#">SELECT PLAN</a>							
+											</div>
 										</div>
 									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_price">
-											<p>$0.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3">
+							<div class = "test">
+								<div class="pricing__botPart--card">
+									<div class="row t-c">
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_icon">
+												<img src="<?php bloginfo('template_url'); ?>/img/pricefour.png" >
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_duration">
-											<p>per month</p>
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_price">
+												<p>$0.00</p>
+											</div>																														
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_type">
-											<ul>
-												<li>Body Message (40Mins)</li>
-												<li>Spa Therapy (20 Mins)</li>
-												<li>Hai-Care & Styles</li>
-												<li>Oil Message (30 Mins)</li>
-												<li>Body Waxing (25 Mins)</li>
-												<li>Skin Care (40 Mins)</li>
-											</ul>
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_duration">
+												<p>per month</p>
+											</div>
 										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="pricing__botPart--card_btn">
-											<a href="#">SELECT PLAN</a>							
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_type">
+												<p>BASIC</p>
+												<ul>
+													<li>Body Message (40Mins)</li>
+													<li>Spa Therapy (20 Mins)</li>
+													<li>Hai-Care & Styles</li>
+													<li class="includePrice">Oil Message (30 Mins)</li>
+													<li class="includePrice">Body Waxing (25 Mins)</li>
+													<li class="includePrice">Skin Care (40 Mins)</li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-xl-12">
+											<div class="pricing__botPart--card_btn">
+												<a href="#">SELECT PLAN</a>							
+											</div>
 										</div>
 									</div>
 								</div>
