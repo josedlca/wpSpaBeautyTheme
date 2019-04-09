@@ -955,8 +955,54 @@ input{
 						Cliemt
 ====================================================*/
 
+.review{
+	background: #361f39;
+	padding: 130px 0;
+}
 
+.review__topPart--title{
+	margin-bottom: 30px;
+}
 
+.review__topPart--desc{
+	margin-bottom: 70px;
+}
+
+.review__botPart--name{
+	margin-bottom: 10px;
+}
+
+.review__botPart--charge{
+	margin-bottom: 30px;
+}
+
+.review__botPart--name p{
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+}
+
+.review__botPart--charge p{
+	font-size: 15px;
+	color: rgb(210, 210, 210);
+}
+
+.review__botPart--desc{
+	margin-bottom: 80px;
+}
+
+.review__botPart--desc p{
+	font-size: 18px;
+	color: rgb(209, 209, 209);
+} 
+
+.review__botPart--img{
+	background: #a3a6bf;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+  
 /*================================================== 
 						Ends Pricing
 ====================================================*/
