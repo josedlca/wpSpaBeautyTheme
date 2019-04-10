@@ -292,49 +292,42 @@
 					</div>
 				</div>
 				<div class="gallery__botPart">
-					<div class="row">
-						<div class="col-xl-4">
-							<div class="gallery__botPart--top hImgTopSides">
-							
-							</div>
-						</div>
-						<div class="col-xl-4">
-							<div class="row">
-								<div class="col-xl-12">
-									<div class="gallery__botPart--top hImgTopCenter">
-								
-									</div>
-								</div>
-								<div class="col-xl-12">
-									<div class="gallery__botPart--top hImgTopCenter">
+					<div class="row ">
+						<?php
+							// the query
+							$the_gallery_query = new WP_Query(array(
+								'category_name' => 'gallery',
+								'post_status' => 'publish',
+								'posts_per_page' => 6,
+							));
+						?>
+						<?php 
+							if($the_services_query->have_posts()) : $i = 0;
 
-									</div>
+							while($the_gallery_query->have_posts()) : $the_gallery_query->the_post();  ?>
+
+							<?php 
+								if($i ==0): $column = 4; $class = ' galleryOne'; 
+								elseif($i  > 0 && $i <= 1): $column = 4; $class = ' galleryTwo';
+								elseif($i  > 1 && $i <= 2): $column = 4; $class = ' galleryThree';
+								elseif($i  > 2 && $i <= 3): $column = 5; $class = ' galleryFour';
+								elseif($i  > 3 && $i <= 4): $column = 4; $class = ' galleryFive';
+								elseif($i  > 4 && $i <= 5): $column = 3; $class = ' gallerySix';
+								endif;
+							?>
+
+							<div class="col-xl-<?php echo $column;?> blog-item">
+
+								<div class="blog-element <?php echo $class; ?>">
+									<?php the_post_thumbnail(); ?>
 								</div>
 							</div>
-						</div>
-						<div class="col-xl-4">
-							<div class="gallery__botPart--top hImgTopSides">
-							
-							</div>
-						</div>
-						<div class="col-xl-12">
-							<div class="gallery__botPart--bot">
-								<div class="row">
-									<div class="col-xl-5">
-										<div class="gallery__botPart--bot_img">
-										</div>
-									</div>
-									<div class="col-xl-4">
-										<div class="gallery__botPart--bot_img">
-										</div>
-									</div>
-									<div class="col-xl-3">
-										<div class="gallery__botPart--bot_img">
-										</div>								
-									</div>
-								</div>
-							</div>
-						</div>
+
+							<?php $i++; endwhile;
+
+							endif;
+
+						?>
 					</div>
 				</div>
 			</div>
