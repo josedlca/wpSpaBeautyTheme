@@ -416,18 +416,28 @@
 				</div>
 				<div class="pricing__botPart">
 					<div class="row">
-						<div class="col-xl-3">
+						<?php
+							// the query
+							$the_pricing_query = new WP_Query(array(
+								'category_name' => 'pricing',
+								'post_status' => 'publish',
+								'posts_per_page' => 4,
+							));
+						?>
+						<?php if($the_pricing_query ->have_posts()) : ?>
+                            <?php while($the_pricing_query ->have_posts()) : $the_pricing_query ->the_post();  ?>
+							<div class="col-xl-3">
 							<div class = "test">
 								<div class="pricing__botPart--card">
 									<div class="row t-c">
 										<div class="col-xl-12">
 											<div class="pricing__botPart--card_icon">
-												<img src="<?php bloginfo('template_url'); ?>/img/priceone.png" >
+												<?php the_post_thumbnail(); ?>
 											</div>
 										</div>
 										<div class="col-xl-12">
 											<div class="pricing__botPart--card_price">
-												<p>$0.00</p>
+												<?php the_tags('', null, null);?>
 											</div>																														
 										</div>
 										<div class="col-xl-12">
@@ -437,14 +447,9 @@
 										</div>
 										<div class="col-xl-12">
 											<div class="pricing__botPart--card_type">
-												<p>BASIC</p>
+												<p><?php the_title(); ?></p>
 												<ul>
-													<li>Body Message (40Mins)</li>
-													<li>Spa Therapy (20 Mins)</li>
-													<li>Hai-Care & Styles</li>
-													<li class="includePrice">Oil Message (30 Mins)</li>
-													<li class="includePrice">Body Waxing (25 Mins)</li>
-													<li class="includePrice">Skin Care (40 Mins)</li>
+													<?php the_content(); ?>
 												</ul>
 											</div>
 										</div>
@@ -457,129 +462,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xl-3">
-							<div class = "test">
-								<div class="pricing__botPart--card">
-									<div class="row t-c">
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_icon">
-												<img src="<?php bloginfo('template_url'); ?>/img/pricetwo.png" >
-											</div>
-										</div>
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_price">
-												<p>$0.00</p>
-											</div>																														
-										</div>
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_duration">
-												<p>per month</p>
-											</div>
-										</div>
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_type">
-												<p>BASIC</p>
-												<ul>
-													<li>Body Message (40Mins)</li>
-													<li>Spa Therapy (20 Mins)</li>
-													<li>Hai-Care & Styles</li>
-													<li class="includePrice">Oil Message (30 Mins)</li>
-													<li class="includePrice">Body Waxing (25 Mins)</li>
-													<li class="includePrice">Skin Care (40 Mins)</li>
-												</ul>
-											</div>
-										</div>
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_btn">
-												<a href="#">SELECT PLAN</a>							
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3">
-							<div class = "test">
-								<div class="pricing__botPart--card">
-									<div class="row t-c">
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_icon">
-												<img src="<?php bloginfo('template_url'); ?>/img/pricethree.png" >
-											</div>
-										</div>
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_price">
-												<p>$0.00</p>
-											</div>																														
-										</div>
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_duration">
-												<p>per month</p>
-											</div>
-										</div>
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_type">
-												<p>BASIC</p>
-												<ul>
-													<li>Body Message (40Mins)</li>
-													<li>Spa Therapy (20 Mins)</li>
-													<li>Hai-Care & Styles</li>
-													<li class="includePrice">Oil Message (30 Mins)</li>
-													<li class="includePrice">Body Waxing (25 Mins)</li>
-													<li class="includePrice">Skin Care (40 Mins)</li>
-												</ul>
-											</div>
-										</div>
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_btn">
-												<a href="#">SELECT PLAN</a>							
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3">
-							<div class = "test">
-								<div class="pricing__botPart--card">
-									<div class="row t-c">
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_icon">
-												<img src="<?php bloginfo('template_url'); ?>/img/pricefour.png" >
-											</div>
-										</div>
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_price">
-												<p>$0.00</p>
-											</div>																														
-										</div>
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_duration">
-												<p>per month</p>
-											</div>
-										</div>
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_type">
-												<p>BASIC</p>
-												<ul>
-													<li>Body Message (40Mins)</li>
-													<li>Spa Therapy (20 Mins)</li>
-													<li>Hai-Care & Styles</li>
-													<li class="includePrice">Oil Message (30 Mins)</li>
-													<li class="includePrice">Body Waxing (25 Mins)</li>
-													<li class="includePrice">Skin Care (40 Mins)</li>
-												</ul>
-											</div>
-										</div>
-										<div class="col-xl-12">
-											<div class="pricing__botPart--card_btn">
-												<a href="#">SELECT PLAN</a>							
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                            <?php endwhile; ?>
+							<?php wp_reset_postdata(); ?>
+                        <?php else : ?>
+                            <p>No posts</p>
+                        <?php endif; ?>
 					</div>
 				</div>
 			</div>
