@@ -350,48 +350,34 @@
 				</div>
 				<div class="products__botPart">
 					<div class="row">
-						<div class="col-xl-4">
-							<div class="products__botPart--card">
-								<!-- img -->
-								<div class="products__botPart--card_desc">
-									<h5>Chiness Beauty Products</h5>
-									<p>Lorem,elit.error iure voluptatum a pariatur eum sunt nesciunt laudantium vel exercitationem.</p>
-									
-								</div>
-								<a class="products__botPart--card_link" href="#">BUY NOW</a>
-								<div class="products__botPart--card_cost">
-									<p>$50</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4">
-							<div class="products__botPart--card">
-								<!-- img -->
-								<div class="products__botPart--card_desc">
-									<h5>Chiness Beauty Products</h5>
-									<p>Lorem,elit.error iure voluptatum a pariatur eum sunt nesciunt laudantium vel exercitationem.</p>
-									
-								</div>
-								<a class="products__botPart--card_link" href="#">BUY NOW</a>
-								<div class="products__botPart--card_cost">
-									<p>$50</p>
+						<?php
+							// the query
+							$the_products_query = new WP_Query(array(
+								'category_name' => 'products',
+								'post_status' => 'publish',
+								'posts_per_page' => 3,
+							));
+						?>
+						<?php if($the_products_query->have_posts()) : ?>
+                            <?php while($the_products_query->have_posts()) : $the_products_query->the_post();  ?>
+							<div class="col-xl-4">
+								<div class="products__botPart--card">
+									<!-- img -->
+									<div class="products__botPart--card_desc">
+										<h5><?php the_title(); ?></h5>
+										<p><?php the_excerpt(); ?></p>
+									</div>
+									<a class="products__botPart--card_link" href="#">BUY NOW</a>
+									<div class="products__botPart--card_cost">
+										<?php the_tags('', null, null);?>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-xl-4">
-							<div class="products__botPart--card">
-								<!-- img -->
-								<div class="products__botPart--card_desc">
-									<h5>Chiness Beauty Products</h5>
-									<p>Lorem,elit.error iure voluptatum a pariatur eum sunt nesciunt laudantium vel exercitationem.</p>
-									
-								</div>
-								<a class="products__botPart--card_link" href="#">BUY NOW</a>
-								<div class="products__botPart--card_cost">
-									<p>$50</p>
-								</div>
-							</div>
-						</div>
+                            <?php endwhile; ?>
+							<?php wp_reset_postdata(); ?>
+                        <?php else : ?>
+                            <p>No posts</p>
+                        <?php endif; ?>
 					</div>
 				</div>
 			</div>

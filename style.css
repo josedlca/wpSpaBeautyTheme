@@ -779,8 +779,9 @@ input{
 	z-index: 2;
 }
 
-.products__botPart--card_cost p{
+.products__botPart--card_cost a{
 	font-size: 20px;
+	text-decoration: none;
 	color: rgb(255, 255, 255);
 }
 
