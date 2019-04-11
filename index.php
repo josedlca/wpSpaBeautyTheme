@@ -63,7 +63,29 @@
 						</div>
 						<div class="col-xl-6">
 							<div class="caracteristics__topPart--imgContainer">
-								<div class="imgTest"></div>
+								<div class="imgTest">
+									<?php
+										// the query
+										$the_gallery_query = new WP_Query(array(
+										'category_name' => 'gallery',
+										'post_status' => 'publish',
+										'posts_per_page' => 6,
+										));
+									?>
+									<?php 
+										if($the_gallery_query->have_posts()) :;
+
+										while($the_gallery_query->have_posts()) : $the_gallery_query->the_post();  ?>
+
+											<div class="mySlides thumnail">
+												<?php the_post_thumbnail(); ?>
+											</div>
+
+										<?php endwhile;
+
+										endif;
+									?>
+								</div>
 								<div class="caracteristics__topPart--imgContainer_aftBef">
 									<div class="caracteristics__topPart--imgContainer_aftBef-bef"><i class="fas fa-long-arrow-alt-left"></i></div>
 									<div class="caracteristics__topPart--imgContainer_aftBef-aft"><i class="fas fa-long-arrow-alt-right"></i></div>

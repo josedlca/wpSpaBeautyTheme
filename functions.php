@@ -23,3 +23,4 @@ function wpSpaBeauty_load_scripts(){
 }
 
 add_action('wp_enqueue_script','wpSpaBeauty_load_scripts');
+

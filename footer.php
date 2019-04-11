@@ -117,5 +117,6 @@
 			</div>
 		</footer>
 	</main>
+	<script src="<?php bloginfo('template_url');?>/js/wpBeauty.js"></script>
 </body>
 </html>
