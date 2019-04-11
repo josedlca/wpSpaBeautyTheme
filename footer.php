@@ -7,14 +7,14 @@
 								<div class="row">
 									<div class="col-xl-12">
 										<div class="footer__corePart--sign_img">
-											some img
+											<img src="<?php bloginfo('template_url'); ?>/img/footerLogo.png" alt="">
 										</div>
 									</div>
 									<div class="col-xl-12">
 										<div class="footer__corePart--sign_languge">
-											<label>Languge</label>
+											<label>Languge:</label>
 											<select name="" id="">
-												<option value="">English(UK)</option>
+												<option value=""> English(UK)</option>
 												<option value="">Spanish</option>
 											</select>
 										</div>
@@ -59,9 +59,9 @@
 								<div class="row">
 									<div class="col-xl-12">
 										<div class="footer__corePart--event_one">
-											<div class="row">
+											<div class="row align-items-center">
 												<div class="col-xl-6">
-													<a href="#">10:00 PM</a>
+													<span>10:00 PM</span>
 												</div>
 												<div class="col-xl-6">
 													<div class="footer__corePart--event_one-place">
@@ -74,9 +74,9 @@
 									</div>
 									<div class="col-xl-12">
 										<div class="footer__corePart--event_one">
-											<div class="row">
+											<div class="row align-items-center">
 												<div class="col-xl-6">
-													<a href="#">10:00 PM</a>
+													<span>10:00 PM</span>
 												</div>
 												<div class="col-xl-6">
 													<div class="footer__corePart--event_one-place">
@@ -93,7 +93,7 @@
 					</div>
 				</div>
 				<div class="footer__lastPart">
-					<div class="row">
+					<div class="row justify-content-between align-items-center">
 						<div class="col-xl-4">
 							<div class="footer__lastPart--copy">
 								<p>Copyright 2018 Staker. Designed by Theme_US</p>
@@ -104,11 +104,11 @@
 							<div class="footer__lastPart--social">
 								<p>Connect with us</p>
 								<ul>
-									<li><a href="#"></a></li>
-									<li><a href="#"></a></li>
-									<li><a href="#"></a></li>
-									<li><a href="#"></a></li>
-									<li><a href="#"></a></li>
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a href="#"><i class="fab fa-behance"></i></a></li>
+									<li><a href="#"><i class="fab fa-dribbble"></i></a></li>
 								</ul>
 							</div>
 						</div>
