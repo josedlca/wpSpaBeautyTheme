@@ -1199,5 +1199,28 @@ label{
 }
   
 /*================================================== 
-						end Footer
+					end Footer
+====================================================*/
+
+/*================================================== 
+				Banner About Us
+====================================================*/
+
+.bannerAbout{
+	width: 100%;
+	height: 400px;
+	background: gray;
+	display: inline-flex;
+	align-items: center;
+}
+
+.bannerAbout p{
+	font-size: 50px;
+	font-family: "Merriweather";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+}  
+
+/*================================================== 
+				end Banner About Us
 ====================================================*/

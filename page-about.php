@@ -7,8 +7,8 @@
 get_header(); ?>
 <section class="bannerAbout">
 	<div class="container">
-		<div class="row">
-			<div class="col-xl-12">
+		<div class="row align-items-center">
+			<div class="col-xl-12 t-c">
 				<div class="bannerAbout__namePage">
 					<p>ABOUT US</p>
 				</div>
