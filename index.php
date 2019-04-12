@@ -324,7 +324,7 @@
 							));
 						?>
 						<?php 
-							if($the_services_query->have_posts()) : $i = 0;
+							if($the_gallery_query->have_posts()) : $i = 0;
 
 							while($the_gallery_query->have_posts()) : $the_gallery_query->the_post();  ?>
 
@@ -340,7 +340,7 @@
 
 							<div class="col-xl-<?php echo $column;?> blog-item">
 
-								<div class="blog-element <?php echo $class; ?>">
+								<div class="<?php echo $class; ?>">
 									<?php the_post_thumbnail(); ?>
 								</div>
 							</div>
