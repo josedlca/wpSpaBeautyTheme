@@ -47,17 +47,33 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-3">
+				<div class="col-xl-3 d-f">
 					<div class="aboutUsExperience__body--icons">
-						<div class="row">
-							<div class="col-xl-12">
-								<div class="aboutUsExperience__body--icons_icon">
-									icon
-								</div>
-								<div class="aboutUsExperience__body--icons_text">
-									10 Years of Experience
-								</div>
-							</div>
+						<div class="row t-c">
+							<?php
+								// the query
+								$the_aboutExperience_query = new WP_Query(array(
+								'category_name' => 'aboutusexperience',
+								'post_status' => 'publish',
+								'posts_per_page' => 4,
+								));
+							?>
+							<?php 
+								if($the_aboutExperience_query->have_posts()) :;
+
+								while($the_aboutExperience_query->have_posts()) : $the_aboutExperience_query->the_post();  ?>
+									<div class="col-xl-12">
+										<div class="aboutUsExperience__body--icons_icon">
+											<?php the_post_thumbnail(); ?>
+										</div>
+										<div class="aboutUsExperience__body--icons_text">
+											<p><?php the_title(); ?></p>
+										</div>
+									</div>
+								<?php endwhile;
+
+								endif;
+							?>
 						</div>
 					</div>
 				</div>
@@ -104,9 +120,9 @@ get_header(); ?>
 	</div>
 </section>
 <section class="aboutUsServices">
-	<div class="container">
+	<div class="container p-r">
 		<div class="aboutUsServices__core">
-			<div class="row">
+			<div class="row t-c">
 				<?php
 					// the query
 					$the_aboutGallery_query = new WP_Query(array(
@@ -129,6 +145,7 @@ get_header(); ?>
 									<p><?php the_title(); ?></p>
 								</div>
 							</div>
+							<hr class="aboutUsServices__line">
 							<div class="col-xl-12">
 								<div class="aboutUsServices__core--card_servicesName">
 									<p><?php the_content(); ?></p>
@@ -157,27 +174,42 @@ get_header(); ?>
 			<div class="col-xl-6">
 				<div class="aboutUsBenefits__core">
 					<div class="row">
-						<div class="col-xl-6">
-							<div class="aboutUsBenefits__core--cards">
-								<div class="row">
-									<div class="col-xl-12">
-										<div class="aboutUsBenefits__core--cards_icons">
-											icon
-										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="aboutUsBenefits__core--cards_title">
-											icon
-										</div>
-									</div>
-									<div class="col-xl-12">
-										<div class="aboutUsBenefits__core--cards_text">
-											icon
+						<?php
+						// the query
+						$the_aboutUsBenefits_query = new WP_Query(array(
+							'category_name' => 'aboutbenefits',
+							'post_status' => 'publish',
+							'posts_per_page' => 4,
+							));
+						?>
+						<?php if($the_aboutUsBenefits_query->have_posts()) : ?>
+							<?php while($the_aboutUsBenefits_query->have_posts()) : $the_aboutUsBenefits_query->the_post();  ?>
+								<div class="col-xl-6">
+									<div class="aboutUsBenefits__core--cards">
+										<div class="row">
+											<div class="col-xl-12">
+												<div class="aboutUsBenefits__core--cards_icons">
+													<?php the_post_thumbnail(); ?>
+												</div>
+											</div>
+											<div class="col-xl-12">
+												<div class="aboutUsBenefits__core--cards_title">
+													<p><?php the_title(); ?></p>
+												</div>
+											</div>
+											<div class="col-xl-12">
+												<div class="aboutUsBenefits__core--cards_text">
+													<p><?php the_content(); ?></p>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-						</div>
+							<?php endwhile; ?>
+							<?php wp_reset_postdata(); ?>
+						<?php else : ?>
+							<p>No posts</p>
+						<?php endif; ?>
 					</div>
 				</div>
 			</div>
@@ -187,7 +219,7 @@ get_header(); ?>
 <section class="aboutUsTeam">
 	<div class="container">
 		<div class="aboutUsTeam__topPart">
-			<div class="row">
+			<div class="row t-c">
 				<div class="col-xl-12">
 					<div class="aboutUsTeam__topPart--title">
 						<h4>Meet Our Expert Team</h4>
@@ -202,43 +234,58 @@ get_header(); ?>
 		</div>
 		<div class="aboutUsTeam__botPart">
 			<div class="row">
-				<div class="col-xl-3">
-					<div class="aboutUsTeam__botPart--card">
-						<div class="row">
-							<div class="col-xl-12">
-								<div class="aboutUsTeam__botPart--card_img">
-									<img src="" alt="">
-								</div>
-							</div>
-							<div class="col-xl-12">
-								<div class="aboutUsTeam__botPart--card_name">
-									<p>David smith</p>
-								</div>
-							</div>
-							<div class="col-xl-12">
-								<div class="aboutUsTeam__botPart--card_charge">
-									<p>Hair Style Empart</p>
-								</div>
-							</div>
-							<hr>
-							<div class="col-xl-12">
-								<div class="aboutUsTeam__botPart--card_number">
-									<p>+98 123445678</p>
-								</div>
-							</div>
-							<div class="col-xl-12">
-								<div class="aboutUsTeam__botPart--card_social">
-									<ul>
-										<li></li>
-										<li></li>
-										<li></li>
-										<li></li>
-									</ul>
+				<?php
+					// the query
+					$the_about_query = new WP_Query(array(
+						'category_name' => 'aboutus',
+						'post_status' => 'publish',
+						'posts_per_page' => 4,
+					));
+				?>
+				<?php if($the_about_query->have_posts()) : ?>
+					<?php while($the_about_query->have_posts()) : $the_about_query->the_post();  ?>
+						<div class="col-xl-3">
+							<div class="aboutUsTeam__botPart--card">
+								<div class="row">
+									<div class="col-xl-12">
+										<div class="aboutUsTeam__botPart--card_img">
+											<?php the_post_thumbnail(); ?>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="aboutUsTeam__botPart--card_name">
+											<p><?php the_title(); ?></p>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="aboutUsTeam__botPart--card_charge">
+											<p><?php the_content(); ?></p>
+										</div>
+									</div>
+									<hr class="aboutUsTeam__botPart--line">
+									<div class="col-xl-12">
+										<div class="aboutUsTeam__botPart--card_number">
+											<p>+98 123445678</p>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="aboutUsTeam__botPart--card_social">
+											<ul>
+												<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+												<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+												<li><a href="#"><i class="fab fa-google-plus-g"></i></i></a></li>
+											</ul>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
+					<?php endwhile; ?>
+					<?php wp_reset_postdata(); ?>
+				<?php else : ?>
+					<p>No posts</p>
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>

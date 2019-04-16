@@ -21,6 +21,14 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 	text-align: center!important;
 }
 
+.d-f{
+	display: inline-flex!important;
+}
+
+.p-r{
+	position: relative!important;
+}
+
 p,
 h1,
 h2,
@@ -244,7 +252,8 @@ label{
 .caracteristics__topPart--text_title p,
 .products__topPart--title h4,
 .pricing__topPart--title h4,
-.review__topPart--title h4{
+.review__topPart--title h4,
+.aboutUsTeam__topPart--title h4{
 	font-size: 40px;
 	color: rgb(239, 69, 129);
 	font-family: "Merriweather";
@@ -258,7 +267,8 @@ label{
 .services__topPart--desc p,
 .gallery__topPart--desc p,
 .products__topPart--desc p,
-.pricing__topPart--desc p{
+.pricing__topPart--desc p,
+.aboutUsTeam__topPart--desc p{
 	font-size: 18px;
 	color: rgb(102, 102, 102);
 }  
@@ -1246,4 +1256,261 @@ label{
 
 /*================================================== 
 				end Banner About Us
+====================================================*/
+
+/*================================================== 
+				 experience Us
+====================================================*/
+.aboutUsExperience{
+	padding: 130px 0;
+}
+
+.aboutUsExperience__body--description_afterTitle{
+	margin-bottom: 20px;
+}
+
+.aboutUsExperience__body--description_afterTitle p{
+	font-size: 15px;
+	color: rgb(28, 28, 28);
+	font-weight: 700;
+}
+
+.aboutUsExperience__body--description_title{
+	margin-bottom: 20px;
+}
+
+.aboutUsExperience__body--description_title h4{
+	font-size: 40px;
+	color: rgb(239, 69, 129);
+	font-family: "Merriweather";
+}  
+
+.aboutUsExperience__body--description_text{
+	margin-bottom: 50px;
+}
+
+.aboutUsExperience__body--description_text p{
+	font-size: 15px;
+	color: rgb(102, 102, 102);
+	font-weight: 500;
+}
+
+.aboutUsExperience__body--description_text p:first-child{
+	margin-bottom: 20px;
+}
+
+.aboutUsExperience__body--description_btn a{
+	font-size: 15px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 25px;
+	background: #7f318c;
+}
+
+.aboutUsExperience__body--icons_text p{
+	font-size: 18px;
+	color: rgb(51, 51, 51);
+}  
+
+.aboutUsExperience__body--icons_icon{
+	margin-bottom: 10px;
+}
+
+.aboutUsExperience__body--icons{
+	display: inline-flex;
+	align-items: center; 
+}
+
+.aboutUsExperience__body--icons_text{
+	margin-bottom: 40px;
+}
+
+/*================================================== 
+				end experience Us
+====================================================*/
+
+/*================================================== 
+				boutUsServices
+====================================================*/
+
+.aboutUsServices{
+	background: #75387f;
+	height: 365px;
+	margin-bottom: 210px;
+}
+
+.aboutUsServices__core{
+	padding: 80px 0 110px 0;
+	border-radius: 20px 20px 0 0;
+	background: #ffffff;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+	position: absolute;
+	top: 80px;
+	width: 100%;
+}
+
+.aboutUsServices__core--card_icon{
+	margin-bottom: 20px;
+}
+
+.aboutUsServices__core--card_store p{
+	font-size: 36px;
+	color: rgb(225, 61, 119);
+	font-weight: 700;
+}
+
+.aboutUsServices__line{
+	margin: 20px auto;
+	border: 1px solid #75387f;
+	width: 20%;
+}
+
+.aboutUsServices__core--card_servicesName p{
+	font-size: 15px;
+	font-family: "Merriweather";
+	color: rgb(102, 102, 102);
+	text-transform: uppercase;
+}  
+
+/*================================================== 
+				end boutUsServices
+====================================================*/
+
+/*================================================== 
+				aboutUsBenefits
+====================================================*/
+
+.aboutUsBenefits{
+	position: relative;
+	background: #75387f;
+	padding: 100px 0;
+}
+
+.aboutUsBenefits__img{
+	position: absolute;
+    background: #f5f5f5;
+	width: 50%;
+	top: 0;
+    left: 0;
+	height: 100%;
+}
+
+.aboutUsBenefits__core{
+	padding-left: 50px;
+}
+
+.aboutUsBenefits__core--cards{
+	padding: 20px 15px 30px 15px;
+	transition: all ease .3s;
+}
+
+.aboutUsBenefits__core--cards:hover{
+	background: #854590;
+}
+
+.aboutUsBenefits__core--cards_icons{
+	margin-bottom: 30px;
+	width: 35px;
+	height: 35px;
+}
+
+.aboutUsBenefits__core--cards_icons img{
+	width: 100%;
+	height: 100%;
+}
+
+.aboutUsBenefits__core--cards_title{
+	margin-bottom: 25px;
+}
+
+.aboutUsBenefits__core--cards_title p{
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+}
+
+.aboutUsBenefits__core--cards_text p{
+	font-size: 15px;
+	color: #e6e6e6;
+}
+  
+/*================================================== 
+				end aboutUsBenefits
+====================================================*/
+
+/*================================================== 
+				aboutUsTeam
+====================================================*/
+.aboutUsTeam{
+	padding: 130px 0;
+}
+
+.aboutUsTeam__topPart--title{
+	margin-bottom: 30px;
+}
+
+.aboutUsTeam__topPart--desc{
+	margin-bottom: 70px;
+}
+
+.aboutUsTeam__botPart--card{
+	width: 100%;
+	padding: 30px;
+	background: #f8f8f8;
+}
+
+.aboutUsTeam__botPart--card_img{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 30px;
+}
+
+.aboutUsTeam__botPart--card_name{
+	margin-bottom: 25px;
+}
+
+.aboutUsTeam__botPart--card_name p{
+	font-size: 18px;
+	color: rgb(34, 34, 34);
+}
+
+.aboutUsTeam__botPart--card_charge p{
+	font-size: 12px;
+	color: rgb(68, 68, 68);
+}
+
+.aboutUsTeam__botPart--card_number{
+	margin-bottom: 25px;
+}
+
+.aboutUsTeam__botPart--card_number p{
+	font-size: 14px;
+	color: rgb(239, 69, 129);
+}
+
+.aboutUsTeam__botPart--line{
+	width: 10%;
+	border: 1px solid #75387f;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.aboutUsTeam__botPart--card_social ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.aboutUsTeam__botPart--card_social ul li:not(:last-child){
+	margin-right: 15px;
+}
+
+.aboutUsTeam__botPart--card_social ul li a{
+	color: rgb(73, 73, 73);
+	text-decoration: none;
+	font-size: 20px;
+}
+
+/*================================================== 
+				end aboutUsTeam
 ====================================================*/
