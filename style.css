@@ -21,6 +21,10 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 	text-align: center!important;
 }
 
+.t-l{
+	text-align: left!important;
+}
+
 .d-f{
 	display: inline-flex!important;
 }
@@ -253,7 +257,8 @@ label{
 .products__topPart--title h4,
 .pricing__topPart--title h4,
 .review__topPart--title h4,
-.aboutUsTeam__topPart--title h4{
+.aboutUsTeam__topPart--title h4,
+.whyChosse__topPart--title h4{
 	font-size: 40px;
 	color: rgb(239, 69, 129);
 	font-family: "Merriweather";
@@ -268,7 +273,8 @@ label{
 .gallery__topPart--desc p,
 .products__topPart--desc p,
 .pricing__topPart--desc p,
-.aboutUsTeam__topPart--desc p{
+.aboutUsTeam__topPart--desc p,
+.whyChosse__topPart--desc p{
 	font-size: 18px;
 	color: rgb(102, 102, 102);
 }  
@@ -1513,4 +1519,137 @@ label{
 
 /*================================================== 
 				end aboutUsTeam
+====================================================*/
+
+/*================================================== 
+				Why choose 
+====================================================*/
+
+.whyChosse__topPart--title{
+	margin-bottom: 35px;
+}
+
+.whyChosse__topPart--desc{
+	margin-bottom: 70px;
+}
+
+.whyChosse__botPart--leftSide_titleDesc-title,
+.whyChosse__botPart--rightSide_titleDesc-title{
+	margin-bottom: 30px;
+}
+
+.whyChosse__botPart--leftSide_titleDesc-desc,
+.whyChosse__botPart--rightSide_titleDesc-desc{
+	margin-bottom: 50px;
+}
+
+.whyChosse__botPart--leftSide_titleDesc-title p,
+.whyChosse__botPart--rightSide_titleDesc-title p{
+	font-size: 18px;
+	color: rgb(51, 51, 51);
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.whyChosse__botPart--leftSide_titleDesc-desc p,
+.whyChosse__botPart--rightSide_titleDesc-desc p{
+	font-size: 14px;
+	color: rgb(102, 102, 102);
+}
+  
+/*================================================== 
+				end Why choose
+====================================================*/
+
+/*================================================== 
+				Attention
+====================================================*/
+
+
+.attention{
+	width: 100%;
+}
+
+.attention__container{
+	display: inline-flex;
+	width: 100%;
+}
+
+.attention__container--body{
+	display: inline-flex;
+	width: 33.333%;
+	flex-wrap: wrap;
+	padding: 70px 0;
+	background-color: #884094;
+	transition: ease all 0.3s;
+}
+
+.attention__container--body:hover{
+	background-color: #ef4581;
+}
+
+.attention__container--body_icon{
+	font-size: 60px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 45px;
+}
+
+.attention__container--body_icon i{
+	transform: translateY(0px);
+	transition: ease all 0.3s;
+}
+
+.attention__container--body:hover .attention__container--body_icon i{
+	transform: translateY(-20px);
+}
+
+.attention__container--body_icon,
+.attention__container--body_title,
+.attention__container--body_number,
+.attention__container--body_days{
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+}
+
+.attention__container--body_title{
+	margin-bottom: 45px;
+}
+
+.attention__container--body_title h4{
+	font-size: 24px;
+	font-family: "Merriweather";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+}
+
+
+.attention__container--body_number p,
+.attention__container--body_days p{
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+}
+
+.attention__container--body_inp{
+	text-align: center;
+	width: 100%;
+}
+
+.attention__container--body_inp input{
+	background: #ffffff;
+	width: 60%;
+	padding: 15px;
+	border-radius: 30px;
+	outline: none;
+	color: rgb(127, 127, 127);
+	font-size: 15px;
+}
+
+.attention__container--body_inp input::placeholder{
+	font-size: 15px;
+	color: rgb(127, 127, 127);
+}
+
+/*================================================== 
+				end Attention
 ====================================================*/
