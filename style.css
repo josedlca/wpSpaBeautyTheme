@@ -258,7 +258,8 @@ label{
 .pricing__topPart--title h4,
 .review__topPart--title h4,
 .aboutUsTeam__topPart--title h4,
-.whyChosse__topPart--title h4{
+.whyChosse__topPart--title h4,
+.popularServices__topPart--title h4{
 	font-size: 40px;
 	color: rgb(239, 69, 129);
 	font-family: "Merriweather";
@@ -274,7 +275,8 @@ label{
 .products__topPart--desc p,
 .pricing__topPart--desc p,
 .aboutUsTeam__topPart--desc p,
-.whyChosse__topPart--desc p{
+.whyChosse__topPart--desc p,
+.popularServices__topPart--desc p{
 	font-size: 18px;
 	color: rgb(102, 102, 102);
 }  
@@ -1652,4 +1654,87 @@ label{
 
 /*================================================== 
 				end Attention
+====================================================*/
+
+/*================================================== 
+					Popular Services
+====================================================*/
+
+.popularServices{
+	padding : 130px 0;
+	background: #fafafa;
+}
+
+.popularServices__topPart--title{
+	margin-bottom: 35px;
+}
+
+.popularServices__topPart--desc{
+	margin-bottom: 70px;
+}
+
+.popularServices__botPart--card{
+	width: 100%;
+	padding-top: 40px;
+	background: #8c4597;
+}
+
+.popularServices__botPart--card_price{
+	margin-bottom: 25px;
+}
+
+.popularServices__botPart--card_price a{
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.popularServices__botPart--card_desc{
+	padding: 0 20px;
+	margin-bottom: 70px;
+}
+
+.popularServices__botPart--card_desc p{
+	font-size: 15px;
+	color: rgb(255, 255, 255);
+}
+  
+.popularServices__botPart--card_title h5{
+	font-size: 20px;
+	color: rgb(51, 51, 51);
+}
+
+.popularServices__botPart--card_title{
+	padding: 20px 0;
+	border-top: 1px solid #fafafa;
+	background: #ffffff;
+	z-index: 3;
+    position: relative;
+}
+
+.popularServices__botPart--card_buybtn{
+	position: absolute;
+	top: 0;
+	left: 50%;
+    transform: translate(-50%, 0%);
+	z-index: 1;
+	transition: all ease 0.3s;
+}
+.popularServices__botPart--card_buybtn a{
+	display: inline-block;
+	font-size: 15px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 15px 22px;
+	background: #ef4581;
+}
+
+.popularServices__botPart--card:hover .popularServices__botPart--card_buybtn{
+	transform: translate(-50%, -100%);
+}
+
+/*================================================== 
+				end Popular Services
 ====================================================*/

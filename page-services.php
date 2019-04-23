@@ -161,4 +161,66 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
+<section class="popularServices">
+	<div class="container">
+		<div class="popularServices__topPart">
+			<div class="row t-c">
+				<div class="col-xl-12">
+					<div class="popularServices__topPart--title">
+						<h4>Popular Services</h4>
+					</div>
+				</div>
+				<div class="col-xl-12">
+					<div class="popularServices__topPart--desc">
+						<p>From page products show something special</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popularServices__botPart">
+			<div class="row">
+				<?php
+					// the query
+					$the_popularServices_query = new WP_Query(array(
+						'category_name' => 'products',
+						'post_status' => 'publish',
+						'posts_per_page' => 4,
+					));
+				?>
+				<?php if($the_popularServices_query->have_posts()) : ?>
+					<?php while($the_popularServices_query->have_posts()) : $the_popularServices_query->the_post();  ?>
+					<div class="col-xl-3">
+						<div class="popularServices__botPart--card">
+							<div class="row t-c">
+								<div class="col-xl-12">
+									<div class="popularServices__botPart--card_price">
+										<?php the_tags('', null, null);?>
+									</div>
+								</div>
+								<div class="col-xl-12">
+									<div class="popularServices__botPart--card_desc">
+										<p><?php the_excerpt(); ?></p>
+									</div>
+								</div>
+								<div class="col-xl-12 p-r">
+									<div class="popularServices__botPart--card_buybtn">
+										<a href="#">ORDER NOW</a>
+									</div>
+									<div class="popularServices__botPart--card_title">
+										<h5><?php the_title(); ?></h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<?php endwhile; ?>
+					<?php wp_reset_postdata(); ?>
+				<?php else : ?>
+					<p>No posts</p>
+					<?php the_tags('', null, null);?>
+				<?php endif; ?>
+			</div>
+		</div>
+	</div>
+</section>
 <?php get_footer(); ?>
